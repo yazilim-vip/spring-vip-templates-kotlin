@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+    <title>Getting Started: Handling Form Submission</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+<h1>Form</h1>
+<form action="#" th:action="@{/persons/save}" th:object="${person}" method="POST">
+    <input type="hidden" th:field="*{id}"/>
+    <p>First Name: <input type="text" th:field="*{firstName}"/></p>
+    <p>Last Name: <input type="text" th:field="*{lastName}"/></p>
+    <p>Career: <input type="text" th:field="*{career}"/></p>
+    <p><input type="submit" value="Submit"/></p>
+    <p><a th:href="@{/persons/}">Person List</a></p>
+</form>
+</body>
+</html>
