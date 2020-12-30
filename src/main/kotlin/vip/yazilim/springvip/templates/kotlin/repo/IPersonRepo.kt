@@ -1,8 +1,8 @@
-package vip.yazilim.springvipexamples.repo
+package vip.yazilim.springvip.templates.kotlin.repo
 
 import org.springframework.data.jpa.repository.JpaRepository
 import org.springframework.stereotype.Repository
-import vip.yazilim.springvipexamples.entity.Person
+import vip.yazilim.springvip.templates.kotlin.entity.Person
 
 /**
  *

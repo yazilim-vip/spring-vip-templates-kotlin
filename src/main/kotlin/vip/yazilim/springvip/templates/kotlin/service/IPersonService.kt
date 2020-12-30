@@ -1,7 +1,7 @@
-package vip.yazilim.springvipexamples.service
+package vip.yazilim.springvip.templates.kotlin.service
 
 import vip.yazilim.libs.springvip.util.generic.service.IGenericServiceCrud
-import vip.yazilim.springvipexamples.entity.Person
+import vip.yazilim.springvip.templates.kotlin.entity.Person
 
 /**
  *

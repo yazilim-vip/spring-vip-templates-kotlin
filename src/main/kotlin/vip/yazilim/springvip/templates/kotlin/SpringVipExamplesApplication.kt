@@ -1,4 +1,4 @@
-package vip.yazilim.springvipexamples
+package vip.yazilim.springvip.templates.kotlin
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

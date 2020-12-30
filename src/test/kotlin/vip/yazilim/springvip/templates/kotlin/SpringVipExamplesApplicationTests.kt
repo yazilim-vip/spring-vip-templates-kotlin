@@ -1,4 +1,4 @@
-package vip.yazilim.springvipexamples
+package vip.yazilim.springvip.templates.kotlin
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest

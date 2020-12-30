@@ -1,4 +1,4 @@
-package vip.yazilim.springvipexamples.entity
+package vip.yazilim.springvip.templates.kotlin.entity
 
 /**
  *

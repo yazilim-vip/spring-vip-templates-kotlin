@@ -1,9 +1,9 @@
-package vip.yazilim.springvipexamples.service.impl
+package vip.yazilim.springvip.templates.kotlin.service.impl
 
 import vip.yazilim.libs.springvip.util.generic.service.impl.AGenericServiceCrud
-import vip.yazilim.springvipexamples.entity.Person
-import vip.yazilim.springvipexamples.repo.IPersonRepo
-import vip.yazilim.springvipexamples.service.IPersonService
+import vip.yazilim.springvip.templates.kotlin.entity.Person
+import vip.yazilim.springvip.templates.kotlin.repo.IPersonRepo
+import vip.yazilim.springvip.templates.kotlin.service.IPersonService
 
 /**
  *

@@ -1,4 +1,4 @@
-package vip.yazilim.springvipexamples.config
+package vip.yazilim.springvip.templates.kotlin.config
 
 import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration

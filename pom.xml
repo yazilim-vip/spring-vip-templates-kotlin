@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>vip.yazilim</groupId>
-    <artifactId>spring-vip-examples</artifactId>
+    <artifactId>spring-vip-templates-kotlin</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>spring-vip-examples</name>
+    <name>spring-vip-templates-kotlin</name>
     <description>Example Projects for Spring VIP</description>
 
     <properties>
