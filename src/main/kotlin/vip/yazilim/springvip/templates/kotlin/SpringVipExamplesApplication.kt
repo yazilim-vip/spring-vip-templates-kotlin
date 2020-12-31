@@ -4,7 +4,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 import vip.yazilim.libs.springvip.constants.BASE_PACKAGE
 
-@SpringBootApplication(scanBasePackages = [BASE_PACKAGE, "vip.yazilim.springvipexamples"])
+@SpringBootApplication(scanBasePackages = [BASE_PACKAGE, "vip.yazilim.springvip.templates.kotlin"])
 class SpringVipExamplesApplication
 
 fun main(args: Array<String>) {
