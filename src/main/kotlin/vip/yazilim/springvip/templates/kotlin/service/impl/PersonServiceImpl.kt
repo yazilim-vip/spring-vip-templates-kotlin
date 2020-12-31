@@ -13,9 +13,13 @@ import vip.yazilim.springvip.templates.kotlin.service.IPersonService
  */
 @Service
 class PersonServiceImpl(
-    private val personRepository: IPersonRepo
-) : AGenericServiceCrud<Person, Long>(personRepository, Person::class, Long::class), IPersonService {
+    private val personRepo: IPersonRepo
+) : AGenericServiceCrud<Person, Long>(personRepo, Person::class, Long::class), IPersonService {
     override fun getId(entity: Person): Long {
         return entity.id
+    }
+
+    override fun getByName(name: String): Person? {
+        return personRepo.findByName(name)
     }
 }

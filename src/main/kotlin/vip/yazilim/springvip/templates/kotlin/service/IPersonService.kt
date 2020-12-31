@@ -8,4 +8,6 @@ import vip.yazilim.springvip.templates.kotlin.entity.Person
  * @author maemresen - maemresen@yazilim.vip
  * 12/30/2020
  */
-interface IPersonService : IGenericServiceCrud<Person, Long>
+interface IPersonService : IGenericServiceCrud<Person, Long> {
+    fun getByName(name: String): Person?
+}

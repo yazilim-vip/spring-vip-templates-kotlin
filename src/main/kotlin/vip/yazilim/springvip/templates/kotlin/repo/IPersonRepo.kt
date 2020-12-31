@@ -3,6 +3,7 @@ package vip.yazilim.springvip.templates.kotlin.repo
 import org.springframework.data.jpa.repository.JpaRepository
 import org.springframework.stereotype.Repository
 import vip.yazilim.springvip.templates.kotlin.entity.Person
+import java.util.*
 
 /**
  *
@@ -10,4 +11,6 @@ import vip.yazilim.springvip.templates.kotlin.entity.Person
  * 12/30/2020
  */
 @Repository
-interface IPersonRepo : JpaRepository<Person, Long>
+interface IPersonRepo : JpaRepository<Person, Long> {
+    fun findByName(name: String): Person?
+}
