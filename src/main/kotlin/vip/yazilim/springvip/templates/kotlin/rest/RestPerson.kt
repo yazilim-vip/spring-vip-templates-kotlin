@@ -8,9 +8,7 @@ import org.springframework.web.bind.annotation.RestController
 import vip.yazilim.libs.springvip.config.bean.IRestResponseBuilder
 import vip.yazilim.libs.springvip.util.generic.rest.AGenericRest
 import vip.yazilim.libs.springvip.util.generic.rest.GenericRest
-import vip.yazilim.libs.springvip.util.generic.rest.method.Create
-import vip.yazilim.libs.springvip.util.generic.rest.method.GetAll
-import vip.yazilim.libs.springvip.util.generic.rest.method.Save
+import vip.yazilim.libs.springvip.util.generic.rest.method.*
 import vip.yazilim.libs.springvip.util.generic.service.IGenericServiceCrud
 import vip.yazilim.springvip.templates.kotlin.entity.Person
 import vip.yazilim.springvip.templates.kotlin.service.IPersonService
@@ -27,7 +25,9 @@ import kotlin.reflect.KClass
 @RequestMapping("/person")
 @GenericRest
 @GetAll
+@GetById
 @Save
+@DeleteById
 class RestPerson(private val restResponseBuilder: IRestResponseBuilder, private val personService: IPersonService) :
     AGenericRest<Person, Long>(
         restResponseBuilder,
